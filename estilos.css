@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400;1,800&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+body {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    max-width: 600px !important;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.075);
+}
+
+.seccion1 {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 15px;
+}
+
+h4{
+    color: hsl(241, 100%, 89%);
+}
+
+.divPorcentaje {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0))
+}
+
+.p1 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: -10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.p2 {
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+}
+
+
+.h31 {
+    color: white;
+
+}
+
+.p3 {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 0px;
+    padding: 8px;
+}
+
+.divSu  {
+    width: 100%;
+}
+
+.h5 {
+  padding: 25px 0px 0px 10px;
+  font-weight: 600;
+}
+
+.cajaDivs {
+    width: 90%;
+    height: 70%;
+}
+
+.div {
+margin: 15px 0px;
+height: 50px;
+border-radius: 10px;
+}
+
+.divA {
+    background-color: hsl(0, 100%, 67%, 0.130);
+}
+
+.divB {
+    background-color: hsl(39, 100%, 56%, 0.130);
+}
+
+.divC {
+    background-color:  hsl(166, 100%, 37%, 0.130);
+}
+
+.divD {
+    background-color:   hsla(234, 85%, 45%, 0.130);
+}
+
+
+.btn {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 50px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+}
+
+.p100 {
+    margin-bottom: 0px;
+    color: hsl(240, 30%, 71%);
+}
+
+.labelDeColor1 {
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+}
+.labelDeColor2 {
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+}
+.labelDeColor3 {
+    color: hsl(166, 100%, 37%); 
+    font-weight: 700;
+}
+.labelDeColor4 {
+    color: hsla(234, 85%, 45%);
+    font-weight: 700;
+}
+
+.icon {
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+input{
+    width: 30px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.i1 {
+    background-color: hsl(0, 100%, 67%, 0.130);
+    color: hsl(0, 100%, 67%);
+}
+.i2 {
+   background-color:  hsl(39, 100%, 56%, 0.130);
+   color: hsl(39, 100%, 56%);
+}
+.i3 {
+    background-color:  hsl(166, 100%, 37%, 0.130);
+    color: hsl(166, 100%, 37%);
+}
+.i4 {
+    background-color:   hsla(234, 85%, 45%, 0.130);
+    color: hsla(234, 85%, 45%);
+
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+
+@media  screen and (max-width: 576px){
+
+    body {
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        max-width: 380px !important;
+        border-radius: 15px;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.075);
+    }
+}
