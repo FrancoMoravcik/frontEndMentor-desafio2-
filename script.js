@@ -17,8 +17,8 @@ function calcularPorcentaje () {
    let num3 = document.getElementById("verbal").value
    let num4 = document.getElementById("visual").value
 
-    if(num1.length >= 3 || num2.length >= 3 || num3.length >= 3 || num4.length >= 3){
-    alert("Solo se admiten 2 digitos")
+    if(num1 >= 101 || num2 >= 101 || num3 >= 101 || num4 >= 101){
+    alert("Solo se admiten 2 digitos o el numero 100")
     form.reset()
     }else {
         let resultado = Math.round((parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4)) / 4).toFixed(0)
